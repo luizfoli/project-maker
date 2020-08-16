@@ -1,9 +1,13 @@
 # Project Maker Robot
-### Uma automacao para facilitar a criacao de projetos de programacao, visando aumentar a produtividade.
+
+Uma automação para facilitar a criação de projetos em linguagem de programação focando em aumentar a sua produtividade.
+Guarde sua energia para solução o resto pode deixar com o bot!
 
 ---
-
+<p align="center">
 🚧  Este projeto ainda se encontra em desenvolvimento 🚧 
+</p>
+---
 
 > Dependencias 
 * Java 8
