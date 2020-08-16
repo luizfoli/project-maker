@@ -4,9 +4,11 @@ Uma automação para facilitar a criação de projetos em linguagem de programa�
 Guarde sua energia para solução o resto pode deixar com o bot!
 
 ---
+
 <p align="center">
-🚧  Este projeto ainda se encontra em desenvolvimento 🚧 
+🚧 Este projeto ainda se encontra em desenvolvimento 🚧 
 </p>
+
 ---
 
 > Dependencias 
