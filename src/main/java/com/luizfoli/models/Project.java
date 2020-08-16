@@ -1,13 +1,15 @@
 package com.luizfoli.models;
 
+import com.luizfoli.models.languages.ILanguage;
+
 public class Project {
 
     private String name;
-    private String language;
+    private ILanguage language;
 
     public Project() {
         this.name = "";
-        this.language = "";
+        this.language = null;
     }
 
     public String getName() {
@@ -18,11 +20,11 @@ public class Project {
         this.name = name;
     }
 
-    public String getLanguage() {
+    public ILanguage getLanguage() {
         return language;
     }
 
-    public void setLanguage(String language) {
+    public void setLanguage(ILanguage language) {
         this.language = language;
     }
 
