@@ -2,6 +2,14 @@ package com.luizfoli.models;
 
 import com.luizfoli.models.languages.ILanguage;
 
+/**
+ * Model class for object 'Project'. To control and deal with getters and
+ * setters.
+ * 
+ * @author luizfoli
+ * @since 15/08/2020
+ */
+
 public class Project {
 
     private String name;
