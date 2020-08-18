@@ -12,12 +12,22 @@ import com.luizfoli.models.languages.ILanguage;
 
 public class Project {
 
+    private String dir;
     private String name;
     private ILanguage language;
 
     public Project() {
+        this.dir = "";
         this.name = "";
         this.language = null;
+    }
+
+    public String getDir() {
+        return dir;
+    }
+
+    public void setDir(String dir) {
+        this.dir = dir;
     }
 
     public String getName() {
@@ -38,7 +48,7 @@ public class Project {
 
     @Override
     public String toString() {
-        return "{name: " + name + ", language: " + language + " }";
+        return "{name: " + name + ", language: " + language + ", dir: " + dir + " }";
     }
 
 }

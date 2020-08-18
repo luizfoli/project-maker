@@ -1,5 +1,8 @@
 package com.luizfoli.actions;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+
 import com.luizfoli.models.Project;
 
 /**
@@ -14,10 +17,17 @@ public class Execution {
     public ProjectAction projectAction = new ProjectAction(new Project());
 
     public void start() {
-        System.out.println("✨       Project Maker - Open Sourcer Automation");
-
+        this.printHeader();
         projectAction.askProjectName();
         projectAction.askProjectLanguage();
     }
 
+    private void printHeader() {
+        try(InputStream input = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/logo.txt")) {
+            System.out.println(input.toString());
+        } catch(Exception e) {
+            
+        }
+    }
+ 
 }

@@ -14,10 +14,8 @@ import com.luizfoli.config.DirConfig;
 public class App {
 
     private static Execution execution = new Execution();
-    private static DirConfig dirConfig = new DirConfig();
 
     public static void main(String[] args) {
-        System.out.println(dirConfig.getDir());
         execution.start();
     }
 }

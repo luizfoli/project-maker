@@ -2,14 +2,17 @@ package com.luizfoli.actions;
 
 import java.util.Scanner;
 import com.luizfoli.models.Project;
+import com.luizfoli.config.DirConfig;;
 
 public class ProjectAction {
 
     private Scanner scanner = new Scanner(System.in);
+    private DirConfig configDir = new DirConfig();
     private Project project;
 
     public ProjectAction(Project project) {
         this.project = project;
+        this.project.setDir(configDir.getDir());
     }
 
     /**
